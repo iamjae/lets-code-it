@@ -148,7 +148,7 @@ export default class index extends Component {
 
     <div class="col-md-4 mb-md-0 mb-5">
       <div class="avatar mx-auto">
-        <img src={require('../images/lois.jpg')} class="rounded z-depth-1-half" alt="Sample avatar"/>
+        <img src={require('../images/lois.jpg')} class="rounded z-depth-1-half" alt="avatar"/>
       </div>
       <h4 class="font-weight-bold dark-grey-text my-4">Ibiyomi Lois</h4>
       <p class="text-uppercase blue-text"><strong>Front-end designer</strong></p>
@@ -175,7 +175,7 @@ export default class index extends Component {
 
     <div class="col-md-4">
       <div class="avatar mx-auto">
-        <img src={require('../images/1.jpg')} class="rounded z-depth-1-half" alt="otitoju avatar"/>
+        <img src={require('../images/1.jpg')} class="rounded z-depth-1-half" alt="otitoju"/>
       </div>
       <h4 class="font-weight-bold dark-grey-text my-4">Otitoju John</h4>
       <p class="text-uppercase blue-text"><strong>Backend developer</strong></p>
