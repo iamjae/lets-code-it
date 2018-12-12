@@ -1,0 +1,216 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 100%;
+  
+}
+* {
+  box-sizing: border-box;
+}
+.head{
+  width: 100%;
+  background-color: white;
+  width: 100%;
+  padding: 40px;
+}
+.head>h1{
+  text-align: center;
+  color: rgb(25, 37, 4);
+}
+.menu{
+  display: flex;
+  list-style: none;
+  float: right;
+}
+#home{
+  background-image: url("../images/team.jpg");
+  background-repeat: no-repeat;
+  margin-top: 40px;
+  background-size: 100%;
+  height: 850px;
+}
+#home #inside{
+  color: white;
+  padding: 210px;
+  font-size: 87px;
+  font-family: serif;
+  font-style: italic;
+}
+@media screen and (max-width: 500px){
+  .menu{
+    display: flex;
+    flex-flow: column;
+    float: none;
+    width: 100%;
+    margin:0px;
+    padding:0px;
+  }
+}
+.menu>li{
+  padding: 5px;
+}
+.menu>li>a{
+  float: right;
+  color: rgb(20,30,100);
+}
+.pioneer-user{
+  width: 50%;
+}
+@media screen and (max-width: 600px){
+  .pioneer-user{
+    width: 100%;
+  }
+}
+.user{
+  text-align: center;
+  width: 85%;
+  border-radius: 40px;
+}
+.first-pio{
+  background-color: aliceblue;
+  padding: 10px;
+  margin: 20px;
+}
+.first-pio > img{
+  border-radius: 110px;
+  width: 30%;
+}
+.second-pio{
+  background-color: aliceblue;
+  padding: 10px;
+  margin: 20px 20px;
+}
+.second-pio > img{
+ border-radius: 40px;
+ width: 40%;
+}
+.third-pio{
+  background-color: aliceblue;
+  padding: 10px;
+  margin: 20px 20px;
+}
+.third-pio > img{
+ border-radius: 40px;
+ width: 40%;
+}
+.overview{
+  background-color: white;
+  text-align: center;
+  border-radius: 40px;
+  padding: 5px;
+}
+/* our Project */
+.workdone{
+  background-color: aliceblue;
+  width: 80%;
+  border-radius: 20px;
+  padding: 5px;
+  margin-top: 20px;
+  margin-left: 10%;
+}
+.links>li>a{
+  color: rgb(100, 100, 200);
+  text-decoration: none;
+}
+
+/* styling of the footer element*/
+footer{
+  background-color: whitesmoke;
+  margin-top: 30px;
+}
+.top-footer{
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-element{
+  padding: 20px;
+}
+.footer-element >a{
+  text-decoration: none;
+  color: rgb(19, 16, 17);
+  text-decoration: none;
+}
+.copyright{
+  padding: 5px;
+}
+
+/* styling of register.html form */
+/* Bordered form */
+form {
+  border: 3px solid #39a0e4;
+  margin-top: 60px;
+}
+@media screen and (min-width: 600px){
+  form{
+    border: 3px solid #39a0e4;
+    margin-top: 40px;
+    margin-left: 25%;
+    width: 50%;
+  }
+}
+.form-container > h1{
+  text-align: center;
+  color:#39a0e4;
+}
+.form-container > p{
+  text-align: center;
+}
+
+/* Full-width of the text inputs to register */
+input[type=text], input[type=password], input[type=number] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(23, 179, 226);
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: rgb(23, 179, 226);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+/* 
+details.html styling which is for the about page
+*/
+.about{
+  background-color: aliceblue;
+  border-radius: 30px;
+  text-align: center;
+  padding: 5px;
+  margin-top: 50px;
+}
+
+/* 
+team.html styling page 
+*/
+table{
+  width: 80%;
+  margin: 20px;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+}
+/* 
+hire us styling
+*/
+.hire-text{
+  text-align: center;
+  padding: 10px;
+  font-family: "DINPro Regular";
+  background-color: #39a0e4;
+  width: 100%;
+}
+.privacy-policy>a{
+  color: rgb(21, 1, 70);
+}
