@@ -104,7 +104,7 @@ export default class index extends Component {
           profiling webapp and so on.<br/>
           Below are the links to some of the sites we have built:<br/>
             <ul class="links">
-              <li><a href="">foodrecipe.com</a></li>
+              <li><a href="https://nice-recipes.herokuapps.com">foodrecipe.com</a></li>
               <li><a href="">nacoss.edu.ng</a></li>
               <li><a href="">pinacle.com</a></li>
             </ul> 
@@ -134,7 +134,7 @@ export default class index extends Component {
       <a class="btn-floating btn-sm mx-1 mb-0 btn-fb">
         <i class="fa fa-facebook blue-text"></i>
       </a>
-      <a class="btn-floating btn-sm mx-1 mb-0 btn-email">
+      <a  class="btn-floating btn-sm mx-1 mb-0 btn-email">
         <i class="fa fa-envelope blue-text"></i>
       </a>
 
